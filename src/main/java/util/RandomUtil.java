@@ -24,8 +24,13 @@ public class RandomUtil {
         return sb.toString();
     }
 
+    public static int randomInt(int bound) {
+        Random rand = new Random();
+        return rand.nextInt(bound);
+    }
+
     private static long randomize(int maxValue) {
-        Random rand=new Random();
+        Random rand = new Random();
         return Math.abs(rand.nextLong() % maxValue);
     }
 
