@@ -1,5 +1,10 @@
 # basic-tools
 
-Sort Algorithms
+Sort Algorithms:
 
     Quick Sort
+
+Search Algorithms:
+
+    Binary Search
+
