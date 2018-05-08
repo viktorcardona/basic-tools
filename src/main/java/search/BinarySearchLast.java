@@ -13,7 +13,7 @@ public class BinarySearchLast {
     public int binarySearch(long[] inputArr, long key) {
         int index = new BinarySearch().binarySearch(inputArr, key);
 
-        if (index == -1) { //|| (index + 1) == inputArr.length
+        if (index == -1) {
             return index;
         }
 
