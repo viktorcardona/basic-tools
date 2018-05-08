@@ -6,6 +6,10 @@ package search;
 public class BinarySearch {
 
     /**
+     *
+     * Returns the position in the array where the key is found.
+     * The position returned is not guaranteed to be the first or last position where the key is found in the sorted array.
+     *
      * @param inputArr Sorted Array!
      * @param key Target Value
      * @return position of key or -1 if it does not exist
