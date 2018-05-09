@@ -13,7 +13,9 @@ public class BinarySearchFirstLast extends BinarySearch {
         }
 
         final int indexCopy = index;
-        return Optional.of(new Index(getFirstIndex(index, inputArr, key), getLastIndex(indexCopy, inputArr, key)));
+        final int first = getFirstIndex(index, inputArr, key);
+        final int last =  getLastIndex(indexCopy, inputArr, key);
+        return Optional.of(new Index(first, last));
     }
 
     private int getFirstIndex(int index, final long[] inputArr, final long key) {
