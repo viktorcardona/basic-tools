@@ -1,6 +1,6 @@
 package search;
 
-public class BinarySearchFirst {
+public class BinarySearchFirst extends BinarySearch {
 
     /**
      *
@@ -10,9 +10,9 @@ public class BinarySearchFirst {
      * @param key Target Value
      * @return position of key or -1 if it does not exist
      */
-    public int binarySearch(long[] inputArr, long key) {
+    public int binarySearchFirst(long[] inputArr, long key) {
 
-        int index = new BinarySearch().binarySearch(inputArr, key);
+        int index = binarySearch(inputArr, key);
 
         if (index <= 0) {
             return index;

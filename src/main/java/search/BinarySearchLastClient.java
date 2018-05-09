@@ -20,8 +20,8 @@ public class BinarySearchLastClient {
         array[8] = 9;
         array[9] = 9;
 
-        int key = 2;
-        int lastIndex = last.binarySearch(array, key);//-1 means not found
+        int key = 7;
+        int lastIndex = last.binarySearchLast(array, key);//-1 means not found
 
         System.out.printf(key+" ::lastIndex:: "+lastIndex);
     }
